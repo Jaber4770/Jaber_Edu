@@ -1,6 +1,16 @@
+/* card */
+.card {
+    padding: 0 0;
+}
+
+.register_btn {
+    display: flex;
+    justify-content: end;
+}
+
 
 /* explore the elerning institute */
-.explore_bg{
+.explore_bg {
     background-color: #f4fafd;
 }
 
@@ -8,7 +18,42 @@
 
 
 /* footer */
-.footer_bg{
+.footer_bg {
     background-color: #161616;
 
+}
+
+/* MEADIA QUERY */
+/* 
+--------------phone
+ */
+@media only screen and (max-width: 576px) {
+
+
+    .register {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .register h1,
+    p {
+        text-align: center;
+    }
+
+    .register button {
+        margin: 0 auto;
+    }
+}
+
+/* 
+------------tab 
+*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .register {
+        text-align: center;
+    }
+
+    .register button {
+        margin: 0 auto;
+    }
 }
